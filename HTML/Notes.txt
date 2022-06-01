@@ -1,0 +1,35 @@
+Estrutura básica:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+    </body>
+</html>
+
+Semântica:
+ 
+Antes se usava muito <div> oque era uma prática difícil porque tinha que ficar buscando 
+significado nas <div> através de classes.
+
+Porém em 2014 com o HTML, novos elementos foram adicionados:
+
+<section>: Seção genérica de conteúdo
+<header>: Cabeçalho ou de parte da página
+<article>: Um conteúdo relevante(Ex: artigo de blog)
+<aside>: Conteúdo relacionado ao conteúdo principal da página
+<footer>: Rodapé
+<h1>-<h6>: Não foram criados, mas servem para trazer Semântica. Representa a importância de um título. 
+
+Textos e Links
+
+<p> </p> -> Textos mais longos(Código, Imagem, vídeo) -> Representa um parágrafo. 
+
+<a></a>-> Anchora, interliga vários componentes.
+    <a href: link para onde a anchora está apontando(Link, email, telefones)
+    <a target: como o link vai ser aberto: <a target="_blank">Link</a>: Abrir em uma nova aba.
+
+
