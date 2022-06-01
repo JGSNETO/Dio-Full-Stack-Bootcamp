@@ -33,3 +33,14 @@ Textos e Links
     <a target: como o link vai ser aberto: <a target="_blank">Link</a>: Abrir em uma nova aba.
 
 
+Imagem
+
+<img> : Não tem tag de fechamento
+<img src = "img/avatar.png"> : Obrigatório.
+<img alt = "Foto do avatar"> : Título. 
+
+Listas
+
+<ul> : Lista em que a ordem não é importante
+<ol> : Ordem dos itens é importante
+<li> : item
