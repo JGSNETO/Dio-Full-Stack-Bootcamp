@@ -44,3 +44,112 @@ Listas
 <ul> : Lista em que a ordem não é importante
 <ol> : Ordem dos itens é importante
 <li> : item
+
+CCS3: Linguagem de estilo
+
+Você cria regra de estilo para elementos ou grupos de elementos.
+|-Seletores-|
+a, p, h1, h3 {
+    color: blue;
+    font-size: 14px;
+    |-Declarações-|
+}
+
+ID X Class: Podem representar qualquer tipo de elementos
+ID: Uma vez na página
+#header {
+    padding: 15px
+}
+class: 
+.header {
+    padding: 10px
+}
+
+<header id="Header" class = "header"></header>
+<header class = "header"></header>
+
+Conceitos Básicos
+
+Quando estamos fazendo o layout de um site, o navegador interpreta cada elemento HTML
+com uma caixa retangular : Box Model
+- Margin : Espaçamento entre elementos
+- Border : Circundam o padding e o conteúdo, podendo alterar aparência e color
+- Padding: Espaçamento entre a bordar e o conteúdo
+- Content: Conteúdo de fato 
+
+Estilizando elementos
+*Padding
+.post{
+    #Forma 1
+    padding: 10px 5px; (Eixo y Eixo X)
+    #Forma 2
+    padding: 15px 10px 5px 0; (Topo, direita, inferior, esquerdo)
+    #Forma 3
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+*Background
+
+.post{
+    background-color: green; ou #008800
+    background-image: url("image.png");
+    backgroung-position: top;
+}
+
+*Border
+.post{
+    border: 3px solid blue;
+    or
+    border-width: 3px;
+    border-color: gray;
+    border-style: solid;
+    -
+    border-top: 2px dotter green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 1px solid cyan;
+}
+
+*Border-radius: Permite arredondar os cantos de um elemento
+
+border-radius: 10px or 50% or 10% 20% or 10% 20% 15% 22%
+
+Estilizando Textos
+
+#title{
+    font-family: Verdana, Arial; (Se a primeira não funcionar a segunda é backup)
+    font-style: italic;
+    font-weight: bold or normal;
+    text-transform: uppercase or lowercase or capitalize;
+    text-decoration: underline or overline or line-through;
+}
+
+Estilizando listas:
+
+*list-style-type
+
+ul{
+    list-style-type: square or upper-roman or "\1F44D" or url(img.png);
+}
+
+Dimensão e Alinhamento:
+Ajustar largura e altura(px or %)
+-width
+-weight
+
+Largura máx e largura mínima
+-Max-width
+-Max-weight
+
+Espaçamento entre elementos
+-Margin
+
+Espaçamento entre texto
+-Text align
+
+Transition:
+Permite mudar entre dois estados. Permite a transição.
+Ex: Estado de rover(passa o mouse em cima do elemento) 
