@@ -1,0 +1,6 @@
+De início, é comum aprender transitions. Uma propriedade mais simples de animação. 
+O browser faz a animação.
+
+Key Frames
+Você consegue controlar as características do objeto, durante a animação.
+São regras que controlam cada passo da animação.
